@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+* {
+    font-family: "Major Mono Display", monospace;
+}
+
+body {
+    color: #fff;
+    background-color: #111;
+}
+
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h1 {
+    font-size: 5rem;
+}
+
+section label {
+    font-size: 2rem;
+}
+
+section input {
+    width: 400px;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+section button {
+    border: none;
+    border-radius: 100px;
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+section button:hover {
+    background-color: #777;
+}

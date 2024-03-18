@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    font-family: "Silkscreen", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: #253237;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.botao:hover {
+    background-color: #405057;
+}
+
+.botao:active {
+    background-color: green;
+}
